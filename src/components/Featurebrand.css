@@ -1,0 +1,34 @@
+.features-main{
+    text-align: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.features {
+  background-image: linear-gradient(135deg, #d6ff7f 0%, #00b3cc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+}
+
+.feature-desc{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #6b6f76;
+}
+
+.brands{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 5rem;
+}
+
+.brands img{
+    width:7%;
+}

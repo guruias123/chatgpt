@@ -1,0 +1,112 @@
+html{
+    /* font-size: 10px; */
+    font-size: 62.5%;  /*10/16 = 0.625*100 => 62.5%*/
+    font-family: inter,  helvetica,  apple color emoji,  segoe ui emoji,  notocoloremoji,  noto color emoji,  segoe ui symbol,  android emoji,  emojisymbols,  -apple-system,  blinkmacsystemfont,  segoe ui,  roboto,  helvetica neue,  noto sans,  sans-serif, boxicons, space mono, crisp noto sans regular,  arial;
+
+}
+
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+.nav-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+img{
+    width: 12%;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 25% 55% 20%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    /* margin-top: 1rem; */
+    position: sticky;
+    top: 0;
+    height: 60px;
+    /* max-width: 100vw; */
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-head{
+    background-image:linear-gradient(135deg, #6699FF 0%, #FF3366 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.nav-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #282a30;
+}
+
+.nav-options select{
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #282a30;
+}
+
+.nav-options span:last-child{
+    color: #F7CC5C;
+}
+
+.nav-button{
+    justify-self: center;
+    background-color: #5e5df0;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    padding: .5rem;
+}
+
+.nav-button a:link, a:visited{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.theme{
+    align-self: flex-end;
+    margin-top: 2rem;
+    margin-right: 4rem;
+}
+
+.theme svg {
+   
+    transform: translateY(16px);
+    z-index: 1;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 56px;
+    border: 0;
+    background-color: #dcdcdc40;
+    color: #00000026;
+    padding: 1rem;
+}
+
+
+

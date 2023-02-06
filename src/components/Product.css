@@ -1,0 +1,132 @@
+* {
+  font-family: inter, helvetica, apple color emoji, segoe ui emoji,
+    notocoloremoji, noto color emoji, segoe ui symbol, android emoji,
+    emojisymbols, -apple-system, blinkmacsystemfont, segoe ui, roboto,
+    helvetica neue, noto sans, sans-serif, boxicons, space mono,
+    crisp noto sans regular, arial;
+}
+
+.p-c-pre-heading {
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.p-c-pre-heading span {
+  background-image: linear-gradient(135deg, #6699ff 0%, #ff3366 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  background-repeat: no-repeat;
+}
+
+.product-container p {
+  color: #6b6f76;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.utility {
+  background-image: linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  background-repeat: no-repeat;
+}
+
+.openai {
+  color: #f32e60;
+}
+
+.product-container button {
+  display: inline-block;
+  background: linear-gradient(135deg, #6699ff 0%, #ff3366 100%);
+  color: #ffffff;
+  box-shadow: 0 10px 20px -10px #b664cd;
+  pointer-events: none;
+  border-radius: 999px;
+  margin: 10px 0;
+  border: none;
+  padding: 12px 20px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.product-title {
+  margin: 2rem;
+  margin-top: 10rem;
+  line-height: 1;
+}
+
+.product-title h1 {
+  font-size: 5.6rem;
+  font-weight: 1000;
+  letter-spacing: -2.5px;
+}
+
+.product-title h1 span {
+  background-image: linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  background-repeat: no-repeat;
+}
+
+.product-title p {
+  font-size: 5.6rem;
+  font-weight: 1000;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  height: 50rem;
+  margin-top: 5rem;
+}
+
+.products-list {
+  background: url("https://renderer-v2.vercel.app/_next/image?url=https%3A%2F%2Ftypedream.sfo3.digitaloceanspaces.com%2Fillustrations%2Fgradients%2Fgreen.png&w=1920&q=100");
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  gap: 2rem;
+  border-radius: 1rem;
+  width: 35rem;
+}
+
+.products-list-icon-head {
+  display: inline-block;
+  border-radius: 7rem;
+  background: #000000;
+  color: #ffffff;
+  box-shadow: 0 10px 20px -10px #000;
+  pointer-events: none;
+  padding: 1rem 3rem 1rem 1rem;
+}
+
+.icon {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.products-list h3 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+
+.products-list p {
+  color: #ffffff;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}

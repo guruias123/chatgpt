@@ -1,0 +1,38 @@
+.companies-container{
+    display: flex;
+    flex-direction: column;
+    background: url('https://renderer-v2.vercel.app/_next/image?url=https%3A%2F%2Fapi.typedream.com%2Fv0%2Fdocument%2Fpublic%2Ff95018a7-0031-4e20-9ee2-f8ae0feeac2a_gradient_11_png.png&w=1920&q=100');
+    width: 100%;
+    color: #fff;
+    align-items: center;
+    position: relative;
+}
+
+.company-showoff{
+    font-size: 2.4rem;
+    line-height: 1.4;
+}
+
+.companies-container img {
+object-fit: contain
+}
+
+.companiew-row-one{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* align-items: stretch; */
+    justify-content: flex-start;
+}
+
+.row-one-elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: var(--width);
+    padding: 20px 15px;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+}
+

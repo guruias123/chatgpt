@@ -1,0 +1,98 @@
+.Middlecards-container {
+  margin-top: 8rem;
+}
+
+.Middlecards-container h1 {
+  font-size: 5.6rem;
+  line-height: 1.125;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: -2.5px;
+}
+
+.acce {
+  background-image: linear-gradient(135deg, #6699ff 0%, #ff3366 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.M-D-sub-head {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.M-D-sub-head p {
+  font-size: 2rem;
+}
+
+.M-D-sub-head1 {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.M-D-sub-head1 p span {
+  background-image: linear-gradient(135deg, #ffcc33 0%, #e233ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  background-repeat: no-repeat;
+}
+
+.Middlecards-container-flex {
+  display: flex;
+  gap: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 5rem;
+}
+
+.flex {
+  background: #f0f3f9;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 33%;
+}
+
+.flex:nth-child(2) img{
+    margin-top: 3rem;
+}
+
+.flex img {
+  width: 100%;
+  margin-top: 10rem;
+}
+
+.flex p {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 2rem;
+}
+
+.flex span {
+  font-size: 2rem;
+  margin-top: 2rem;
+  display: inline-block;
+}
+
+.flex a:link,
+a:visited {
+  color: #6e79d6;
+  text-decoration: none;
+  font-size: 2rem;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.highlight-text {
+  background-image: linear-gradient(135deg, #d6ff7f 0%, #00b3cc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  background-repeat: no-repeat;
+}

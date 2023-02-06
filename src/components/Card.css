@@ -1,0 +1,91 @@
+.Cards {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 90rem;
+  margin-top: 10rem;
+}
+
+.Card-left {
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  padding: 2rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 1rem;
+}
+
+.card-left-icon {
+  background: #6968f7;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 7rem;
+  align-self: self-start;
+  padding-bottom: 6px;
+  box-shadow: 0 10px 20px -10px #6968f7;
+}
+
+.icon {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.card-left-heading {
+  color: #6968f7;
+  font-size: 3.6rem;
+}
+
+.card-left-para {
+  display: inline;
+  font-size: 2rem;
+  line-height: 1;
+  word-break: break-all;
+  white-space: normal;
+  overflow-wrap: break-word;
+  /* font-weight: 500; */
+}
+
+.card-left-img {
+  width: 100%;
+}
+
+.Card-right {
+  width: 50%;
+  background: linear-gradient(to right bottom, #d08b9b, #e8a088, #ad73dc),
+    url("https://renderer-v2.vercel.app/_next/image?url=https%3A%2F%2Ftypedream.sfo3.digitaloceanspaces.com%2Fillustrations%2Fgradients%2Fgradient-7.png&w=3840&q=100");
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0,0,0,.09) 0px 3px 12px;
+}
+
+.card-right-icon {
+  background: #fff;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 7rem;
+  align-self: self-start;
+  padding-bottom: 6px;
+}
+
+.right-icon {
+  color: #6968f7;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.right-card-head {
+  background-image: linear-gradient(135deg, #d6ff7f 0%, #00b3cc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  background-repeat: no-repeat;
+  font-size: 6rem;
+  font-weight: 900;
+}

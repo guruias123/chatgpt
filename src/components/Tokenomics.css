@@ -1,0 +1,77 @@
+.tokenomics-container {
+  background: #000;
+  width: 100%;
+  color: #fff;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.tokenomics-container h3 {
+  margin-top: 2rem;
+  font-size: 2.6rem;
+  letter-spacing: -0.5px;
+}
+
+/* .tokenomics-container p{
+    color: #282a30;
+} */
+
+.token-desc-head{
+    font-size: 1.5rem;
+  color: #fff;
+}
+
+.token-desc {
+  font-size: 1.5rem;
+  color: #282a30;
+  text-align: center;
+  /* width: 65rem; */
+}
+
+.tokenomics-boxes {
+  display: flex;
+  flex-direction: row;
+  height: 56rem;
+  gap: 3rem;
+  padding: 2rem;
+  padding-bottom: 5rem;
+}
+
+.tokenomics-box {
+  background: linear-gradient(135deg, #2f80ed 0%, #b2ffda 100%);
+  width: 30rem ;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  line-height: 1.5;
+}
+
+.b{
+    background:linear-gradient(135deg, #6699FF 0%, #FF3366 100%)
+}
+
+.c{
+    background:linear-gradient(135deg, #D6FF7F 0%, #00B3CC 100%)
+}
+
+.tokenicon{
+    font-size: 3.6rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.token-head{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #282a30;
+}
+
+
