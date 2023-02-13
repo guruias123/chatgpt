@@ -6,6 +6,7 @@ const Product = () => {
   return (
     <>
       <div className="product-container">
+        <div className="products-desc">
         <h2 className="p-c-pre-heading">
           Start growing with <span>ChatGptBsc</span>
         </h2>
@@ -26,7 +27,7 @@ const Product = () => {
           <p> 💎</p>
         </div>
       </div>
-      
+      </div>
       <div className="products">
         <div className="products-list">
           <div className="products-list-icon-head">

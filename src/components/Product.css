@@ -6,6 +6,12 @@
     crisp noto sans regular, arial;
 }
 
+.products-desc{
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
 .p-c-pre-heading {
   font-size: 36px;
   font-weight: 800;
@@ -49,7 +55,8 @@
   box-shadow: 0 10px 20px -10px #b664cd;
   pointer-events: none;
   border-radius: 999px;
-  margin: 10px 0;
+  /* margin: 10px 0; */
+  margin-top: 6rem;
   border: none;
   padding: 12px 20px;
   font-size: 2rem;
@@ -57,8 +64,8 @@
 }
 
 .product-title {
-  margin: 2rem;
-  margin-top: 10rem;
+  padding: 1rem;
+  padding-top: 6rem;
   line-height: 1;
 }
 
@@ -80,14 +87,17 @@
 .product-title p {
   font-size: 5.6rem;
   font-weight: 1000;
+  /* text-align: left; */
 }
 
 .products {
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  height: 50rem;
+  /* height: 50rem; */
   margin-top: 5rem;
+  width: 100%;
+    padding: 1rem;
 }
 
 .products-list {
@@ -99,7 +109,7 @@
   padding: 2rem;
   gap: 2rem;
   border-radius: 1rem;
-  width: 35rem;
+  width: 33.333%;
 }
 
 .products-list-icon-head {
@@ -129,4 +139,16 @@
   color: #ffffff;
   font-size: 1.6rem;
   line-height: 1.5;
+}
+
+@media screen and (max-width: 600px) {
+  .products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.products-list {
+  width: 100%;
+}
 }

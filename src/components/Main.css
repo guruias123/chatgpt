@@ -28,12 +28,12 @@
 }
 
 .main-header-2{
-    color: #000;
+    /* color: #000; */
     font-size: 5.6rem;
 }
 
 .main-header p{
-    width: 70rem;
+    /* width: 70rem; */
     font-size: 2rem;
     /* text-align: center; */
     margin-top: 3rem;
@@ -41,7 +41,7 @@
 }
 
 .main-header p strong{
-    color: #000;
+    color: inherit;
 }
 
 .buy-button{
@@ -50,7 +50,7 @@
     border-radius: 30px;
     font-size: 2rem;
     font-weight: 700;
-    margin-top: 8rem;
+    margin-top: 2rem;
 
 }
 
@@ -184,5 +184,16 @@ border-radius: 3rem;
 
 .but1{
   padding: 1.5rem 4.5rem;
+}
+
+@media screen and (max-width: 680px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 6rem 6rem 0 6rem;
+    padding: 2rem;
+    width: 100vw;
+}
 }
 

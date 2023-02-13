@@ -8,8 +8,11 @@
 }
 
 .earning-sub{
-    margin-top: 10rem;
-    margin-left: 10rem;
+  width: 100%;
+  /* margin-top: 10rem; */
+  /* margin-left: 10rem; */
+  padding-top: 4rem;
+  padding-left: 2rem;
 }
 
 .earning-sub h1{
@@ -47,8 +50,10 @@ a:visited {
 .earning-boxes{
     display: flex;
     flex-direction: row;
-    margin: 10rem;
+    /* margin: 10rem; */
     gap: 2rem;
+    padding: 2rem;
+    width: 100%;
 }
 
 .earning-box{
@@ -75,4 +80,11 @@ a:visited {
     color: #fff;
     font-size: 3rem;
     font-weight: 400;
+  }
+
+  @media screen and (max-width: 450px) {
+    .earning-boxes {
+      display: flex;
+      flex-direction: column
+  }
   }

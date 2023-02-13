@@ -1,11 +1,11 @@
 import React from "react";
 import "./Main.css";
 
-const Main = () => {
+const Main = (props) => {
   return (
     <div className="main">
-      <div className="main-header">
-        <p>
+      <div className="main-header" style={{background:props.background,color:props.color}}>
+        {/* <p> */}
         <h1>
           <span className="main-header-1">ChatGptBsc </span>
           <span className="main-header-2">Builds on</span>
@@ -14,11 +14,11 @@ const Main = () => {
           <span className="main-header-2">framework </span>
           <span className="main-header-1">OpenAi.</span>
         </h1>
-        </p>
+        {/* </p> */}
 
         <p>
           ChatGpt Bsc is a Free{" "}
-          <strong>
+          <strong style={{background:props.background,color:props.color}}>
             Telegram bot, Twitter Bot, Discord, Whats app Etc, that provides,
             User access to
           </strong>{" "}

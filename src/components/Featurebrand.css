@@ -1,5 +1,6 @@
 .features-main{
     text-align: center;
+    width: 100%;
 }
 
 h1{
@@ -27,8 +28,9 @@ h1{
     justify-content: center;
     gap: 10rem;
     margin-top: 5rem;
+    flex-wrap: wrap;
 }
 
 .brands img{
-    width:7%;
+    width:10%;
 }

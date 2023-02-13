@@ -35,15 +35,16 @@
 .tokenomics-boxes {
   display: flex;
   flex-direction: row;
-  height: 56rem;
+  /* height: 56rem; */
   gap: 3rem;
   padding: 2rem;
   padding-bottom: 5rem;
+  width: 100%;
 }
 
 .tokenomics-box {
   background: linear-gradient(135deg, #2f80ed 0%, #b2ffda 100%);
-  width: 30rem ;
+  width: 33.3333% ;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -72,6 +73,19 @@
     font-size: 2rem;
     font-weight: 500;
     color: #282a30;
+}
+
+@media screen and (max-width: 600px) {
+  .tokenomics-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .tokenomics-box {
+    width: 100%;
+  }
 }
 
 
