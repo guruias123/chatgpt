@@ -23,12 +23,14 @@
 .token-desc-head{
     font-size: 1.5rem;
   color: #fff;
+  text-align: center;
 }
 
 .token-desc {
   font-size: 1.5rem;
   color: #282a30;
   text-align: center;
+  
   /* width: 65rem; */
 }
 
@@ -40,6 +42,7 @@
   padding: 2rem;
   padding-bottom: 5rem;
   width: 100%;
+  height: 60rem;
 }
 
 .tokenomics-box {
@@ -80,11 +83,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    height: 100%;
   }
 
   .tokenomics-box {
     width: 100%;
+    height: 60rem;
   }
 }
 

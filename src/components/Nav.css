@@ -18,6 +18,7 @@ html{
     align-items: center;
     gap: 3rem;
     background: #fff;
+    
 }
 
 img{
@@ -59,14 +60,18 @@ img{
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 700;
     /* color: #282a30; */
+}
+
+.nav-options span a{
+    /* color: #fff; */
 }
 
 .nav-options select{
     border: none;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 700;
     /* color: #282a30; */
     background: none;
 }
@@ -80,20 +85,28 @@ img{
     background-color: #5e5df0;
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
     border-radius: 30px;
-    padding: .5rem;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    transition: transform .1s ease-out;
 }
 
-.nav-button a:link, a:visited{
+.join:link, .join:visited{
     text-decoration: none;
     font-size: 2rem;
     font-weight: 700;
     color: #fff;
 }
 
+.nav-button:hover{
+    transform: translateY(-.3rem);
+    /* background-color: red; */
+}
+
 .theme{
     align-self: flex-end;
     margin-top: 6rem;
     margin-right: 4rem;
+    cursor: pointer;
 }
 
 .theme svg {
@@ -127,6 +140,7 @@ img{
         justify-content: space-between;
         width: 100vw;
         position: relative;
+        flex-wrap: nowrap;
     }
     
     

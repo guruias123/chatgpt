@@ -13,6 +13,7 @@ import Tokenomics from "./Tokenomics";
 import Secured from "./Secured";
 import Contract from "./Contract";
 import Footer from "./Footer";
+import Buycgpt from "./Buycgpt";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -66,9 +67,9 @@ const Nav = () => {
           <span className="nav-head">ChatGptBsc</span>
         </div>
 
-        <div className="nav-options">
-          <span>Home</span>
-          <span>About</span>
+        <div className="nav-options" style={{ background: currentTheme.background, color: currentTheme.color}}>
+          <span><a href="#home" style={{ background: currentTheme.background, color: currentTheme.color}}>Home</a></span>
+          <span><a href='#About' style={{ background: currentTheme.background, color: currentTheme.color}}>About</a></span>
           <select
             style={{
               background: currentTheme.background,
@@ -79,13 +80,13 @@ const Nav = () => {
             <option>Telegram</option>
             <option>Whatsapp</option>
           </select>
-          <span>Products</span>
-          <span>Whitepaper</span>
+          <span><a href="#product" style={{ background: currentTheme.background, color: currentTheme.color}}>Products</a></span>
+          <span><a href="https://bscdao.gitbook.io/chatgptbsc.com/" target="_blank" style={{color: currentTheme.color}} >Whitepaper</a></span>
           <span>$150k Compt</span>
         </div>
 
         <div className="nav-button">
-          <a href="#">Join presale</a>
+          <a className="join" href="#">Join presale</a>
         </div>
 
         <div className="burger">
@@ -111,19 +112,20 @@ const Nav = () => {
               }}
             >
               {/* <div className="nav-options-burger"> */}
-              <span>Home</span>
-              <span>About</span>
-              <select
-                style={{
-                  background: currentTheme.background,
-                  color: currentTheme.color,
-                }}
-              >
-                <option>Social</option>
-                <option>Telegram</option>
-                <option>Whatsapp</option>
-              </select>
-              <span>Products</span>
+              <span><a href="#home" style={{ background: currentTheme.background, color: currentTheme.color}}>Home</a></span>
+          <span><a href='#About' style={{ background: currentTheme.background, color: currentTheme.color}}>About</a></span>
+          <select
+            style={{
+              background: currentTheme.background,
+              color: currentTheme.color,
+            }}
+          >
+            <option>Social</option>
+            <option>Telegram</option>
+            <option>Whatsapp</option>
+          </select>
+          <span><a href="#product" style={{ background: currentTheme.background, color: currentTheme.color}}>Products</a></span>
+              
               <span>Whitepaper</span>
               <span>$150k Compt</span>
 
@@ -133,7 +135,7 @@ const Nav = () => {
           )}
         </div>
       </div>
-      <div className="theme">
+      <div className="theme" id="home">
         {icon === false ? (
           <svg
             viewBox="0 0 20 20"
@@ -164,13 +166,14 @@ const Nav = () => {
       </div>
       <Main background={currentTheme.background} color={currentTheme.color} />
       <Featurbrand />
-      <Card />
+      <Buycgpt background={currentTheme.background} color={currentTheme.color} />
+      <Card background={currentTheme.background} color={currentTheme.color}/>
       <Middlecards
         background={currentTheme.background}
         color={currentTheme.color}
       />
       <Earning />
-      <Product />
+      <Product background={currentTheme.background} color={currentTheme.color}/>
       <Tokenomics />
       <Blockchainfirm />
       <FeaturedCompanies />

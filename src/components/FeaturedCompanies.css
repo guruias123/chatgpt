@@ -11,6 +11,8 @@
 .company-showoff{
     font-size: 2.4rem;
     line-height: 1.4;
+    padding-top: 3rem;
+    text-align: center;
 }
 
 .companies-container img {
@@ -77,8 +79,12 @@ object-fit: contain
   }
 
   @media screen and (max-width: 510px) {
-    .row-one-elements img{
+    .row-one-elements div img{
         width: 40%;
+    }
+
+    .row-one-elements div span{
+        font-size: 1rem;
     }
     .row-one-elements{
         display: flex;

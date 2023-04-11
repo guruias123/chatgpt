@@ -16,3 +16,12 @@
   /* border-radius: 90rem; */
 
 }
+
+button{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+

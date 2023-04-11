@@ -1,10 +1,30 @@
 
+
 .main{
   display: flex;
   flex-direction: row;
-  gap: 3rem;
-  margin: 6rem 6rem 0 6rem ;
+  justify-content: space-between;
+  padding: 4rem;
+  padding-bottom: 8rem;
+  animation: moveInBottom 1s ease-out;
+  gap: 8rem;
 }
+
+@keyframes moveInBottom {
+  from {
+    opacity: 0;
+    transform: translateY(3rem); 
+    /* background-color: red; */
+  }
+    
+  to {
+    opacity: 1;
+    transform: translate(0); 
+    /* background-color: #4be1ec; */
+  } 
+  }
+
+
 
 .main-header {
 
@@ -14,6 +34,8 @@
   font-weight: 700;
   line-height: 1;
   /* padding: 4rem; */
+  width: 55%;
+  align-self: center;
 }
 
 .main-header-1 {
@@ -38,10 +60,22 @@
     /* text-align: center; */
     margin-top: 3rem;
     color: #6b6f76;
+    
+    line-height: 1.5;
+
+}
+
+.main-header div{
+  /* margin-top: 4rem; */
+  cursor: pointer;
 }
 
 .main-header p strong{
     color: inherit;
+}
+
+.main-header{
+/* margin-top: 4rem; */
 }
 
 .buy-button{
@@ -50,7 +84,8 @@
     border-radius: 30px;
     font-size: 2rem;
     font-weight: 700;
-    margin-top: 2rem;
+    cursor: pointer;
+    margin-top: 4rem;
 
 }
 
@@ -62,6 +97,7 @@
   display: flex;
   flex-direction: column;
   gap: 2px;
+  width: 34%;
 }
 
 .right-card-header{
@@ -132,6 +168,42 @@
     width: 54%;
 }
 
+.stage-progress-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 30rem;
+  width: 100%;
+}
+
+.stage1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.vector-image{
+  background: #1D1F2B;
+  border-radius: 100px;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leg{
+  position: absolute;
+  top: 4px;
+  background: #1D1F2B;
+  height: 12px;
+  left: 26px;
+  width: 64px;
+  z-index: 100;
+}
+
 .line{
   font-size: 1.5rem;
   font-weight: 500;
@@ -186,14 +258,48 @@ border-radius: 3rem;
   padding: 1.5rem 4.5rem;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 969px) {
   .main {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    margin: 6rem 6rem 0 6rem;
+    /* margin: 6rem 6rem 0 6rem; */
     padding: 2rem;
     width: 100vw;
+}
+
+.main-header{
+  width: 100%;
+}
+
+.right-card{
+  width: 60%;
+  align-self: center;
+}
+
+.button{
+  width: 100%;
+}
+
+.connect{
+  padding: 1rem;
+}
+
+.button-2{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 100%;
+}
+
+.bottom-button{
+  padding: 1rem;
+}
+}
+
+@media screen and (max-width: 547px) {
+.right-card{
+  width: 100%;
 }
 }
 

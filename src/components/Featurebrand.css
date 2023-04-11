@@ -4,7 +4,7 @@
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 700;
 }
 
@@ -17,7 +17,7 @@ h1{
 }
 
 .feature-desc{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 400;
     color: #6b6f76;
 }
@@ -25,12 +25,15 @@ h1{
 .brands{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 10rem;
+    justify-content: space-around;
+    /* gap: 10rem; */
     margin-top: 5rem;
     flex-wrap: wrap;
+    padding: 2rem;
+    align-items: center;
 }
 
 .brands img{
-    width:10%;
+    width:14%;
+    height: 100%;
 }

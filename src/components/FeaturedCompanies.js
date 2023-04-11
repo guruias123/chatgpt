@@ -7,7 +7,7 @@ const FeaturedCompanies = () => {
   return (
     <div className="companies-container">
       <p className="company-showoff" style={{ fontFamily: "Space Mono" }}>
-        sowing the seeds of a better tomorrow.
+        showing the seeds of a better tomorrow.
       </p>
 
       <div className="companiew-row-one">
@@ -52,7 +52,7 @@ const FeaturedCompanies = () => {
               alt=""
               src="https://api.typedream.com/v0/document/public/25921986-5106-4fa8-a487-74eb943384f5/2J9DAkPwTFZiExTh0dRkIz3c6th_2IzzGazjJa02z4djxpZrDBi02lu_download-3.avif?bucket=document"
             />
-            <span>Antler.comv</span>
+            <span>Antler.com</span>
           </div>
         </div>
         <div></div>

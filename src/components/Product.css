@@ -29,7 +29,7 @@
   background-repeat: no-repeat;
 }
 
-.product-container p {
+.products-desc p {
   color: #6b6f76;
   font-size: 2rem;
   font-weight: 700;
@@ -48,12 +48,12 @@
   color: #f32e60;
 }
 
-.product-container button {
+.products-desc button {
   display: inline-block;
   background: linear-gradient(135deg, #6699ff 0%, #ff3366 100%);
   color: #ffffff;
   box-shadow: 0 10px 20px -10px #b664cd;
-  pointer-events: none;
+  /* pointer-events: none; */
   border-radius: 999px;
   /* margin: 10px 0; */
   margin-top: 6rem;
@@ -92,22 +92,24 @@
 
 .products {
   display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  /* height: 50rem; */
-  margin-top: 5rem;
-  width: 100%;
-    padding: 1rem;
+    flex-direction: row;
+    gap: 2rem;
+    /* align-items: self-start; */
+    /* height: 50rem; */
+    /* margin-top: 5rem; */
+    width: 100%;
+    padding: 2rem;
+    height: 60rem;
 }
 
 .products-list {
   background: url("https://renderer-v2.vercel.app/_next/image?url=https%3A%2F%2Ftypedream.sfo3.digitaloceanspaces.com%2Fillustrations%2Fgradients%2Fgreen.png&w=1920&q=100");
   display: flex;  
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: flex-start;
-  padding: 2rem;
-  gap: 2rem;
+  padding: 15rem 2rem;
+    gap: 2rem;
   border-radius: 1rem;
   width: 33.333%;
 }
@@ -147,8 +149,10 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 2rem;
+    height: 100%;
 }
 .products-list {
   width: 100%;
+  height: 60rem;
 }
 }

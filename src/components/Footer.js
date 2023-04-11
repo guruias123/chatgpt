@@ -11,21 +11,21 @@ const Footer = () => {
             </div>
             <div className='sub-footer'>
             <div className='footer-1-sub2'>
-                <p><strong>Home</strong></p>
-                <p>About</p>
+                <p><strong><a href='#home' style={{"color":"white"}}>Home</a></strong></p>
+                <p><a href="https://bscdao.gitbook.io/chatgptbsc.com/" target="_blank" style={{"color":"#fff"}}>About</a></p>
                 <p>Ai Telegram Bot</p>
                 <p>AI Twitter Bot</p>
                 <p>AI whats app Bot</p>
                 <p>Chrome Extension</p>
                 <p>$150k competition</p>     
-                <p>GitBook</p>           
+                <p><a href="https://bscdao.gitbook.io/chatgptbsc.com/" target="_blank" style={{"color":"#fff"}}>GitBook</a></p>           
             </div>
 
             <div className='footer-1-sub2'>
             <p><strong>Presale Live</strong></p>
                 <p>About ChatGptBsc</p>
                 <p>Whitepaper</p>
-                <p>Github </p>
+                <p>Github</p>
                 <p><span className='medium'>Medium</span></p>
                 <p><span className='twitter'>Twitter</span></p>
             </div>

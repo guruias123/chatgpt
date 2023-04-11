@@ -2,10 +2,10 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import "./Product.css";
 
-const Product = () => {
+const Product = (props) => {
   return (
     <>
-      <div className="product-container">
+      {/* <div className="product-container"> */}
         <div className="products-desc">
         <h2 className="p-c-pre-heading">
           Start growing with <span>ChatGptBsc</span>
@@ -18,16 +18,15 @@ const Product = () => {
         <p>
           services and access <span className="openai">OpenAI's</span> AI bots.
         </p>
-        <button>Buy Presale Now →</button>
-
-        <div className="product-title">
+        <button><a href="https://bscdao.gitbook.io/chatgptbsc.com/" target="_blank" style={{"color":"#fff"}}>Buy Presale Now →</a></button>
+        <div className="product-title" id="product">
           <h1>
             Products of <span>ChatGptBsc </span>
           </h1>
           <p> 💎</p>
         </div>
       </div>
-      </div>
+      {/* </div> */}
       <div className="products">
         <div className="products-list">
           <div className="products-list-icon-head">

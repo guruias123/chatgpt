@@ -5,6 +5,7 @@
   text-align: center;
   gap: 8rem;
   width: 100%;
+  margin-bottom: 4rem;
 }
 
 .block-chain-container span {
@@ -22,7 +23,7 @@
 .block-chain-companies{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 4rem;
     flex-wrap: wrap;

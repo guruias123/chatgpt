@@ -3,11 +3,11 @@ import { Icon } from "@iconify/react";
 import "./Card.css";
 import "../css/icon-font.css";
 
-const Card = () => {
+const Card = (props) => {
   return (
-    <div>
-      <div className="Cards">
-        <div className="Card-left">
+    // <div>
+      <div className="Cards" id="About">
+        <div className="Card-left" style={{background:props.background,color:props.color}}>
           <div className="card-left-icon">
             <Icon className="icon" icon="bx:arrow-from-top" />
           </div>
@@ -15,7 +15,7 @@ const Card = () => {
           <h3 className="card-left-heading">About ChatGptBsc</h3>
 
           <p>
-            <span className="card-left-para">
+            <span className="card-left-para" >
               ChatGptBsc is the first utility token for AI and robotics. It will
               be used to create the first bot services on Open AI, create crypto
               robots, train API models, and much more in the future.
@@ -39,7 +39,7 @@ const Card = () => {
             <p className="right-card-head">Intelligence </p>
           </div>
 
-          <p style={{"color":"#fff","fontSize":"2rem"}}>
+          <p style={{"color":"#fff","fontSize":"2rem","lineHeight":"1.4"}}>
             Artificial General Intelligence AGI has been an exciting prospect
             for decades, and now it's finally here! ChatGptBsc is the first AI
             platform to combine the power of artificial intelligence with
@@ -58,7 +58,7 @@ const Card = () => {
 
         </div>
       </div>
-    </div>
+    // </div>
   );
 };
 
